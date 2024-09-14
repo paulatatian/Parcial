@@ -1,0 +1,149 @@
+body{
+    background: #90a5d6;
+    background: -webkit-linear-gradient(to top, #cad3e7, #3b70db);
+    background: linear-gradient(to top, #1255ef, #bcc9e3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header {
+    display: flex;
+    background-color: #F1F1F1;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 200px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.titulo{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    /* border: 1px solid #000; */
+    margin-left: 15em;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.tituloo{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    /* border: 1px solid #000; */
+    margin-left: 5em;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.imagenpersona {
+    width: 150px;
+    height: auto; 
+    margin-left: auto; 
+}
+
+.imagenfondotitu {
+    position: absolute;
+    top: 50%;
+    left: -40%;
+    width: 80%; 
+    height: auto;
+    transform: translateY(-50%) rotate(-10deg); 
+    z-index: -1;
+    opacity: 0.7; /*opacidad*/
+} 
+
+
+.texto{
+    /* max-width: 50%; */
+    margin: 0 auto;
+    position: static;
+    width: 55%; 
+    text-align: left; /*texto a la iz */
+    /* border: 1px solid #000; */
+    font-family: "Noto Sans", sans-serif;
+}
+
+#botton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #botton:hover {
+    background-color: #45a049;
+  }
+  #botton:active {
+    background-color: #3e8e41;
+  }
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #ffffff00; /* Color de fondo del pie de página */
+    color: #000000; /* Color del texto */
+    padding: 20px; /* Espacio interno */
+    font-family: Arial, sans-serif; /* Fuente del pie de página */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre las secciones */
+    flex-wrap: wrap; /* Permite que las secciones se envuelvan en dispositivos más pequeños */
+}
+
+.footer-section {
+    flex: 1; /* Cada sección ocupa el mismo espacio */
+    margin: 10px; /* Espacio alrededor de cada sección */
+}
+
+.footer-section h3 {
+    border-bottom: 2px solid #f39c12; /* Línea decorativa debajo del título */
+    padding-bottom: 10px; /* Espacio debajo del título */
+}
+
+.footer-section p,
+.footer-section ul {
+    margin: 0; /* Elimina márgenes adicionales */
+    padding: 0; /* Elimina relleno adicional */
+}
+
+.footer-section ul {
+    list-style: none; /* Quita los puntos de la lista */
+}
+
+.footer-section ul li {
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+}
+
+.footer-section ul li a {
+    color: #f39c12; /* Color de los enlaces */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón sobre el enlace */
+}
+
+.footer-bottom {
+    text-align: center; /* Centra el texto en la parte inferior del pie de página */
+    padding-top: 10px; /* Espacio superior para separar del contenido anterior */
+    border-top: 1px solid #444; /* Línea separadora */
+    margin-top: 20px; /* Espacio superior para separar del contenido anterior */
+}
+
+/* Estilos específicos para la sección de contacto */
+.contact-info {
+    display: flex; /* Muestra los datos de contacto en línea */
+    gap: 20px; /* Espacio entre los elementos de contacto */
+}
+
+.contact-person {
+    flex: 1; /* Cada elemento ocupa el mismo espacio */
+}
+
+.contact-person h4 {
+    margin-top: 0; /* Elimina el margen superior del título de la persona */
+    margin-bottom: 10px; /* Espacio inferior entre el título y el texto */
+}
